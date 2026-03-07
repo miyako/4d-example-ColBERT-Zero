@@ -32,7 +32,7 @@ $port:=8081
 $options:={pooling: "multi-vector"}
 
 $folder:=$homeFolder.folder("ColBERT-Zero")
-$path:="ColBERT-Zero-onnx-f32"
+$path:="ColBERT-Zero-onnx-int8"
 $URL:="keisuke-miyako/ColBERT-Zero-onnx-int8"
 
 $huggingface:=cs:C1710.event.huggingface.new($folder; $URL; $path; "rerank"; ($URL="@-f16" || ($URL="@-f32")) ? "model.onnx" : "model_quantized.onnx")

@@ -60,4 +60,25 @@ int8
 }
 ]
 
+f16
+
+[
+{
+"index": 0,
+"relevance_score": 0.9999803431445
+},
+{
+"index": 1,
+"relevance_score": 0.99997918622676
+},
+{
+"index": 2,
+"relevance_score": 0.5
+},
+{
+"index": 3,
+"relevance_score": 0.5
+}
+]
+
 */
