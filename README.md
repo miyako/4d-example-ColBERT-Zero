@@ -17,3 +17,11 @@ var $parameters:=cs.AIKit.RerankerParameters.new({model: "default"; top_n: 4})
 
 var $result:=$client.rerank.create($query; $parameters)
 ```
+
+
+||int8|f32|document
+|-|-|-|:-
+|`2`|`0.99995028114949` |`0.99995283831721`|Washington, D.C. …
+|`0`|`0.99990831333269` |`0.99991483763847`|Carson City is the capital city of the American state of Nevada.
+|`3`|`0.99987366283149` |`0.99988664991956`|Capital punishment (the death penalty) has existed in the United States…
+|`1`|`0.9998521790132`  |`0.99986454058244`|The Commonwealth of the Northern Mariana Islands is…
