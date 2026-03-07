@@ -1,5 +1,6 @@
-# 4d-example-ColBERT-Zero
-ColBERT Zero for ONNX
+## [lightonai/ColBERT-Zero](https://huggingface.co/lightonai/ColBERT-Zero)
+
+**ColBERT Zer** is a text embedding model released by **LightOn** in 2026. 
 
 ```4d
 var $client:=cs.AIKit.Reranker.new({baseURL: "http://127.0.0.1:8081/v1"})
