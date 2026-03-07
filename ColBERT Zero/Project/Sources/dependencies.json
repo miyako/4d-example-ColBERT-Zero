@@ -1,0 +1,16 @@
+{
+	"dependencies": {
+		"onnx genai": {
+			"github": "miyako/onnx-genai",
+			"version": "latest"
+		},
+		"event": {
+			"github": "miyako/event",
+			"version": "latest"
+		},
+		"AIKit": {
+			"github": "miyako/AIKit",
+			"version": "latest"
+		}
+	}
+}
